@@ -595,7 +595,7 @@ export default {
             : url.searchParams.delete("p");
           window.history.pushState(null, "", url.toString());
         }
-        document.title = this.cwd.replace(/.*\/(?!$)|\//g, "") === "小舅子" 
+        document.title = this.cwd.replace(/.*\/(?!$)|\//g, "") === "/" 
             ? "小舅子"
             :`${this.cwd.replace(/.*\/(?!$)|\//g, "") || "/" } - 我的网盘文件库`;
       },
