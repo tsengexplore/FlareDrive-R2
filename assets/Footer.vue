@@ -31,7 +31,7 @@
     <div class="powered">Powered by <a href="https://workers.cloudflare.com/" target="_blank"
         rel="noopener noreferrer">Cloudflare Workers</a></div>
 
-    <div style="margin:10px 0;">© 2025 FlareDrive. All rights reserved.</div>
+    <div style="margin:10px 0;">© 2025 Drive.xiaojiuzi.com. All rights reserved.</div>
   </footer>
 </template>
 
@@ -40,10 +40,10 @@ export default {
   name: "Footer",
   data() {
     return {
-      homeUrl: "https://www.liushen.fun/",
-      blogUrl: "https://blog.liushen.fun/",
-      githubUrl: "https://github.com/willow-god",
-      emailUrl: "mailto:01@liushen.fun"
+      homeUrl: "https://www.xiaojiuzi.com/",
+      blogUrl: "https://blog.xiaojiuzi.com/",
+      githubUrl: "https://github.com/",
+      emailUrl: "mailto:cloud@xiaojiuzi.com"
     };
   }
 };
